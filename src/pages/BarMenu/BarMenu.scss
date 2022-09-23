@@ -1,0 +1,48 @@
+.barMenu {
+    display: flex;
+    flex-direction: column;
+    .menuBar-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .menu-home {
+        width: 123px;
+        height: 63px;
+        background-color: #F9D44A;
+        border-radius: 0px 31.5px 31.5px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-bar {
+        gap: 64px;
+        width: 185px;
+        margin-top: 64px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu-bar a {
+        text-decoration: none;
+        font-family: 'Baloo 2';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #18333E;
+    }
+    .menu-bar span {
+        margin-left: 15px;
+    }
+    .menu-footer {
+        margin-top: 210px;
+        margin-bottom: 80px;
+    }
+    .bar {
+        display: flex;
+        align-items: flex-start;
+        width: 80px;
+    }
+}
